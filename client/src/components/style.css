@@ -1,0 +1,146 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 15px;
+    margin-bottom: 10px;
+}
+
+.nav img{
+    width: 20%;
+}
+.btns-div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connect-tel{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-tel a{
+    background-color:rgb(2, 210, 210) ;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btns-div .btn{
+    border: none;
+    background-color:#242834 ;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: Oswald,sans-serif !important;
+    cursor: pointer;
+}
+
+.head-strip{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dats-strip{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dat-head{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+.main h3{
+    font-size: 72px !important;
+    line-height: 10px;
+    color: white !important;
+    margin: 50px;
+}
+
+.dat-head p{
+    color: grey;
+    font-size: 20px !important;
+}
+.dat-head h3{
+    color: rgb(2, 210, 210) ;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.table {
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    padding-inline: 20px;
+    margin: 20px auto;
+    row-gap: 20px;
+}
+.table tr{
+    background-color: #313644;
+    border-radius: 20px;
+}
+th,td{
+    padding: 15px;
+}
+tbody tr{
+    border-radius: 20px;
+}
+.tbody{
+    height: 400px !important;
+    overflow-y: scroll;
+}
+.thead tr{
+    background-color: transparent !important;
+    color: gray;
+    font-size: 25px;
+    font-weight: 400;
+}
+.table td{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.table{
+    border: none;
+    border-collapse: collapse;
+}
+
+@media only screen and (max-width:720px) {
+    .table{
+        display: block;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav img{
+        width: 40%;
+    }
+    .btns-div{
+        width: 60%;
+    }
+    .connect-tel{
+        width: 60%;
+    }
+    .main h3{
+        font-size: 40px !important;
+    }
+    .dat-head h3{
+        font-size:30px ;
+    }
+}
