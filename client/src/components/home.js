@@ -13,7 +13,7 @@ function Home() {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.post('http://localhost:4000/fetchdata');
+            const response = await axios.post('https://quad-api.onrender.com/fetchdata');
             setOne(Math.random())
             settwo(Math.random())
             setthree(Math.random())
